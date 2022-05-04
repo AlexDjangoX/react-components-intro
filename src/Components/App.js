@@ -3,7 +3,9 @@ import Main from "./Main";
 import Footer from "./Footer";
 import Card from "./Card";
 
-function App() {
+import React from "react";
+
+const App = () => {
   return (
     <Card>
       <Header />
@@ -11,6 +13,6 @@ function App() {
       <Footer />
     </Card>
   );
-}
+};
 
 export default App;

@@ -1,6 +1,6 @@
 import React from "react";
 
-import NavLeft from "./NaveLeft";
+import NavLeft from "./NavLeft";
 import NavRight from "./NavRight";
 
 function Header() {

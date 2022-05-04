@@ -1,6 +1,8 @@
 import React from "react";
 import classes from "./Header.module.css";
+
 import Svg from "./Svg";
+import NavRightImage from "./NavRightImage";
 
 const NavRight = () => {
   return (
@@ -12,11 +14,7 @@ const NavRight = () => {
           <Svg />
         </li>
         <li>
-          <img
-            src="https://lh3.google.com/u/0/ogw/ADGmqu9SnLFSXSNhQekSAI8qQNn9h-VAhGGPPtNZefIQ=s64-c-mo"
-            alt="avatar"
-            className={classes.avatar}
-          />
+          <NavRightImage />
         </li>
       </ul>
     </nav>
